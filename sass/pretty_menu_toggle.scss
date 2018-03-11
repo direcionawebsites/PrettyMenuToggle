@@ -1,0 +1,177 @@
+@import "variaveis_toggle_menu";
+
+.aside-menu-toggle {
+  list-style: none;
+  font-size: $menu-size-font;
+  position: relative;
+  margin: 0 auto;
+  padding: 0;
+  > li:first-child {
+    font-size: $menu-size-font-title;
+    line-height: $menu-line-height-font-title;
+    text-align: center;
+    font-weight: 600;
+    border-top: 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    background-color: $menu-background-color-title;
+    color: $menu-color-title;
+  }
+  > li {
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 40px;
+    color: $menu-font-color;
+    border-top: 1px solid $menu-li-border-color;
+    background-color: $menu-li-background-color;
+    .icon {
+      display: block;
+      float: left;
+      padding: 12px 10px 0 10px;
+    }
+    .messages {
+      font-size: $messages-font-size-li;
+      line-height: $messages-line-height-li;
+      display: block;
+      float: right;
+      width: 34px;
+      height: 18px;
+      margin-top: -33px;
+      margin-right: 19px;
+      padding: 0;
+      text-align: center;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      background-color: $messages-background-color;
+      /*background: url("prettymenutoggle/messages.png") no-repeat;*/
+      -webkit-transition: 0.3s;
+    }
+    > a {
+      color: $menu-font-color;
+    }
+    &:hover {
+      background-color: $menu-font-color-hover;
+      -webkit-transition: 0.3s;
+    }
+  }
+  > li:last-child {
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    background-color: $menu-background-color-footer;
+    height: $menu-height-footer;
+  }
+  > li span {
+    line-height: 43px;
+    display: block;
+  }
+  .submenu {
+    font-size: $submenu-font-size;
+    box-sizing: border-box;
+    content: " ";
+    display: none;
+    > a {
+      color: $submenu-font-color;
+      &:hover {
+        color: $submenu-li-a-hover;
+        -webkit-transition: 0.2s;
+      }
+      > li {
+        line-height: 2.2em;
+        margin-left: -40px;
+        border-left: solid 2px $submenu-border-color;
+        border-right: solid 2px $submenu-border-color;
+        background-color: $submenu-background-color;
+        list-style: none;
+        -webkit-transition: 0.5s;
+        &:link {
+          color: $submenu-font-color;
+        }
+        &:hover {
+          border-left: solid 12px $submenu-li-border-hover;
+          -webkit-transition: 0.3s;
+        }
+        > span {
+          margin-left: 15px;
+        }
+      }
+    }
+
+    .chosen,
+    .chosen:hover {
+      border-left: solid 6px $submenu-chosen-border-color;
+    }
+  }
+}
+
+.aside-menu-toggle-lojasespeciais {
+  list-style: none;
+  font-size: $lojas-especiais-menu-size-font;
+  position: relative;
+  margin: 0 auto 20px auto;
+  padding: 0;
+  > li:first-child {
+    font-size: $lojas-especiais-menu-size-font-title;
+    line-height: $lojas-especiais-menu-line-height-font-title;
+    text-align: center;
+    font-weight: 600;
+    border-top: 0;
+    -webkit-border-radius: 10px 10px 0 0;
+    -moz-border-radius: 10px 10px 0 0;
+    border-radius: 10px 10px 0 0;
+    background-color: $lojas-especiais-menu-background-color-title;
+    color: $lojas-especiais-menu-color-title;
+  }
+  > li {
+    cursor: pointer;
+    box-sizing: border-box;
+    height: 40px;
+    color: $lojas-especiais-menu-font-color;
+    border-top: 1px solid $lojas-especiais-menu-li-border-color;
+    background-color: $lojas-especiais-menu-li-background-color;
+    -webkit-transition: 0.3s;
+    .icon {
+      display: block;
+      float: left;
+      padding: 12px 10px 0 10px;
+    }
+    .messages {
+      font-size: $lojas-especiais-messages-font-size-li;
+      line-height: $lojas-especiais-messages-line-height-li;
+      display: block;
+      float: right;
+      width: 34px;
+      height: 18px;
+      margin-top: -33px;
+      margin-right: 19px;
+      padding: 0;
+      text-align: center;
+      -webkit-border-radius: 10px;
+      -moz-border-radius: 10px;
+      border-radius: 10px;
+      background-color: $lojas-especiais-messages-background-color;
+      /*background: url("prettymenutoggle/messages.png") no-repeat;*/
+    }
+    > a {
+      color: $lojas-especiais-menu-font-color;
+    }
+    &:hover {
+      background-color: $lojas-especiais-menu-font-color-hover;
+      -webkit-transition: 0.3s;
+    }
+  }
+  > li:last-child {
+    -webkit-border-radius: 0 0 10px 10px;
+    -moz-border-radius: 0 0 10px 10px;
+    border-radius: 0 0 10px 10px;
+    background-color: $lojas-especiais-menu-background-color-footer;
+    height: $lojas-especiais-menu-height-footer;
+  }
+  > li span {
+    line-height: 40px;
+    -webkit-transition: 0.3s;
+    display: block;
+  }
+}

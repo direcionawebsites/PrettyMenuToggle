@@ -1,0 +1,32 @@
+{
+  "name": "PrettyMenuToggle",
+  "description": "Descrição sobre o pacote",
+  "readmeFilename": "README.md" ,
+  "keywords": [
+    "PrettyMenuToggle",
+    "Menu",
+    "Menu, fotos, PrettyMenuToggle, jQuery Menu"
+  ],
+  "tags": [
+    "PrettyMenuToggle",
+    "Menu"
+  ],
+  "version": "3.1.6",
+  "author": {
+    "name": "PrettyMenuToggle",
+    "email": "http://www.no-margin-for-errors.com",
+    "homepage": "http://www.no-margin-for-errors.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/direcionawebsites/prettyphoto_v3.1.6.git"
+  },
+  "dependencies":{
+    
+  },
+  "license": "GPLv2",
+  "engines": {
+    
+  },
+  "main": "index.js"
+}

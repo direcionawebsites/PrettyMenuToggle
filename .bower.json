@@ -1,0 +1,14 @@
+{
+  "name": "PrettyMenuToggle",
+  "homepage": "https://github.com/quinhone/PrettyMenuToggle",
+  "_release": "9fa1e12fab",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "9fa1e12fab15abab66901bf101d49fa0aaf2c831"
+  },
+  "_source": "https://github.com/quinhone/PrettyMenuToggle.git",
+  "_target": "*",
+  "_originalSource": "https://github.com/quinhone/PrettyMenuToggle.git",
+  "_direct": true
+}
